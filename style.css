@@ -44,3 +44,73 @@ body {
     flex-direction: column;
     place-content: center;
 }
+
+input,
+select,
+.btn {
+    border-radius: 5px;
+}
+
+input,
+select {
+    border: 1px solid var(--bdr);
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--btn);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+.btn 
+{
+    width: 360px;
+    height: 40px;
+    padding: 16px 12px;
+}
+
+.btn {
+    color: var(--Bg);
+    background-color: var(--btn);
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    align-self: center;
+}
+
+#phoneField {
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+    justify-content: space-between;
+}
+
+#phoneField select {
+    width: 60px;
+    height: 40px;
+}
+
+#phoneField input {
+    width: 280px;
+}
+
+.error {
+    border-color: var(--err);
+}
+
+.error-message {
+    color: var(--err);
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.err {
+    width: 360px;
+    height: 14px;
+    font-size: 12px;
+}
+
