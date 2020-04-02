@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --Bg:#f9f9f9;
+    --btn:#5236e2;
+    --err:#ff5230;
+    --bdr:#c9ccd2;
+}
+
+body {
+    font-size: 16px;
+    background-color: var(--Bg);
+}
+
+.container {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    place-items: center;
+    place-content: center;
+}
+
+.form-container {
+    padding: 20px 10px 0 10px;
+    border-radius: 3px;
+    border: 1px solid var(--bdr);
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    width: 400px;
+    height: 60px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    place-content: center;
+}
